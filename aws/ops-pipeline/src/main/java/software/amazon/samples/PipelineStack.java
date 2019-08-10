@@ -34,7 +34,7 @@ public class PipelineStack extends Stack {
     private static final String DOCKER_BUILD_ENV_IMAGE = "timl128/demo-build-environment:latest";
 
     private static final String GITHUB_OWNER = "timl128";
-    private static final String GITHUB_REPO = "demo";
+    private static final String GITHUB_REPO = "helidon-cdk-example";
     private static final String GITHUB_BRANCH = "master";
     private static final String GITHUB_CDK_PATH = "aws";
     private static final String BUILD_SPEC_PATH = "aws";
