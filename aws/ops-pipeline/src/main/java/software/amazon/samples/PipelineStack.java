@@ -22,11 +22,11 @@ import java.util.Arrays;
  *     secret id and json field.
  *  4. Create an s3 bucket for the code build cache (in your target region).
  *  5. Run the cdk bootstrap process in your target region.
- *  4. Update the variables below to reflect the github project you
+ *  6. Update the variables below to reflect the github project you
  */
 public class PipelineStack extends Stack {
 
-    private static final String REGIONAL_ARTIFACT_CACHE_BUCKET_NAME = "your-bucket";
+    private static final String REGIONAL_ARTIFACT_CACHE_BUCKET_NAME = "demo-bucket-abc";
 
     private static final String SECRET_ID = "github";
     private static final String SECRET_ID_JSON_FIELD = "key";
